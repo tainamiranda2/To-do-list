@@ -1,0 +1,53 @@
+body{
+    background: rgba(199, 54, 90, 0.333);
+}
+/*botanod nomeio*/
+.contant{
+    max-width: 400px;
+    max-height: 600px;
+    margin: auto;
+    height: 450px;
+    padding: 2%;
+    border: 2px solid;
+    background: rgb(230, 54, 54);
+}
+.contant h1{
+    text-align: center;
+    
+}
+input[type=text]{
+    width: 80%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+input[type=button]{
+    width: 17%;
+    border: none;
+    float: right;
+    height: 35px;
+}
+button, input[type=button]:hover{
+    background: rgb(221, 221, 221);
+}
+
+button, input[type=button]{cursor: pointer;}
+
+button{
+    float: right;
+    width: 25px;
+    padding: 5px;
+}
+ul{
+    list-style-type: none;
+    padding: 10px;
+    height: 250px;
+    background: #fff;
+    overflow-y: auto;
+}
+li{
+    height: 25px;
+    margin: 10px 0 10px 0;
+    border-bottom: 1px solid;
+    
+}
